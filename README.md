@@ -17,6 +17,13 @@ npm install -g serverless
 sls dynamodb start --migrate
 ```
 
+**_Seeding_**
+
+```
+sls dynamodb seed --seed=domain,test
+sls dynamodb start --seed=domain,test
+```
+
 ### RUN IN LOCAL
 
 ```
