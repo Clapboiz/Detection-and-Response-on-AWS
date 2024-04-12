@@ -14,21 +14,6 @@ npm install -g serverless
 **Serverless dynamodb local (plugin)**
 
 ```
-npm install --save serverless-dynamodb-local
-```
-
-Then in `serverless.yml` add following entry to the plugins array: `serverless-dynamodb-local`
-
-```
-plugins:
-  - serverless-dynamodb-local
-```
-
-```
-sls dynamodb install
-```
-
-```
 sls dynamodb start --migrate
 ```
 
