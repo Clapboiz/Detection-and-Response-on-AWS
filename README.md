@@ -8,30 +8,22 @@ Because we need to test locally before releasing it to the cloud, you need to in
 **Serverless plugin framework**
 
 ```
+npm install
+```
+
+```
 npm install -g serverless
 ```
 
 **Serverless dynamodb local (plugin)**
 
 ```
-sls dynamodb start --migrate
-```
-
-**_Seeding_**
-
-```
-sls dynamodb seed --seed=domain,test
-sls dynamodb start --seed=domain,test
+sls dynamodb install
 ```
 
 ### RUN IN LOCAL
-
 ```
-sls offline start
-```
-
-```
-npm run test
+sls offline start --location .
 ```
 ## ARCHITECTURE
 
