@@ -11,15 +11,17 @@ Because we need to test locally before releasing it to the cloud, you need to in
 npm install
 ```
 
-```
-npm install -g serverless
-```
-
 **Serverless dynamodb local (plugin)**
 
 ```
 sls dynamodb install
 ```
+
+if you `Can't install dynamodb "sls dynamodb install"`
+
+Bug: **_Error getting DynamoDb local latest tar.gz location undefined_**
+
+=> Fix: edit `download_url` in `node_modules/dynamodb-localhost/dynamodb/config.json` -> `https://s3.us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz` and `http` -> `https` in `node_modules/dynamodb-localhost/dynamodb/installer.js`
 
 ### RUN IN LOCAL
 ```
