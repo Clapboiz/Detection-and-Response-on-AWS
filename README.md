@@ -8,6 +8,10 @@ Because we need to test locally before releasing it to the cloud, you need to in
 **Serverless plugin framework**
 
 ```
+npm install -g serverless
+```
+
+```
 npm install
 ```
 

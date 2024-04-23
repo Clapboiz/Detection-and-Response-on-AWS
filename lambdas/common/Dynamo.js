@@ -1,4 +1,5 @@
-const AWS = require("aws-sdk");
+// const AWS = require("aws-sdk");
+var AWS = require("aws-sdk/dist/aws-sdk-react-native");
 
 let options = {};
 if (process.env.IS_OFFLINE) {
