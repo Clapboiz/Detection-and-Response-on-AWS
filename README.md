@@ -1,31 +1,31 @@
 # Detection-and-Response-on-AWS
 
 ## HOW TO RUN THIS PROJEECT (Follow step by step)
-**Note: You must run our project on cmd, not on powershell because the error "Select-String: A positional parameter cannot be found that accepts argument '--migrate'" will appear because PowerShell confuses the sls command with Select-String. This happens because sls is an alias for Select-String in PowerShell**
+**Note: You must run our project on `cmd` or `git bash`, not on powershell because the error "Select-String: A positional parameter cannot be found that accepts argument '--migrate'" will appear because PowerShell confuses the sls command with Select-String. This happens because sls is an alias for Select-String in PowerShell**
 
 Because we need to test locally before releasing it to the cloud, you need to install the serverless framework to test locally.
 
 **Serverless plugin framework**
 
 ```
+npm install -g serverless
+```
+
+**Then install package**
+
+```
 npm install
 ```
 
-**Serverless dynamodb local (plugin)**
+**Deploy & run in cloud**
 
 ```
-sls dynamodb install
+sls deploy --verbose
 ```
-
-if you `Can't install dynamodb "sls dynamodb install"`
-
-Bug: **_Error getting DynamoDb local latest tar.gz location undefined_**
-
-=> Fix: edit `download_url` in `node_modules/dynamodb-localhost/dynamodb/config.json` -> `https://s3.us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz` and `http` -> `https` in `node_modules/dynamodb-localhost/dynamodb/installer.js`
 
 ### RUN IN LOCAL
 ```
-sls offline start --location .
+sls offline start
 ```
 ## ARCHITECTURE
 
