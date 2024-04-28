@@ -41,11 +41,23 @@ sls deploy --verbose
 
 Then you access to `dynamodb service`, you copy `Amazon Resource Name (ARN)` and paste it into `serverless.yml` in local `(provider.iamRoleStatements.Resource)`
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/cd61a4e3-ee95-428d-baf1-468607ee178f)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/747f57bb-3d55-46f5-ad25-41e0369b84e2)
+
+Next I will demo the create function for you (Use `postman` to demo), the update, read, delete functions are done similarly.
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d6443cc6-3b58-4c62-8533-29eb589c9707)
 
 ### RUN IN LOCAL
 ```
-sls offline start
+serverless plugin install -n serverless-offline
+```
+
+```
+sls offline
+```
+
+```
+serverless invoke local --function hello
 ```
 ## ARCHITECTURE
 
