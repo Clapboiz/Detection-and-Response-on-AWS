@@ -41,6 +41,7 @@ sls deploy --verbose
 
 Then you access to `dynamodb service`, you copy `Amazon Resource Name (ARN)` and paste it into `serverless.yml` in local `(provider.iamRoleStatements.Resource)`
 
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/cd61a4e3-ee95-428d-baf1-468607ee178f)
 
 ### RUN IN LOCAL
 ```
