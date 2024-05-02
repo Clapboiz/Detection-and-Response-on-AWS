@@ -16,8 +16,8 @@ const deleteTask = async (event) => {
   return {
     status: 200,
     body: {
-      message: 'Deleted Task'
-    }
+      message: "Deleted Task",
+    },
   };
 };
 
