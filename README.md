@@ -78,18 +78,39 @@ serverless invoke local --function hello
 | **Overall Recommendation**              | Good for small teams with simple needs. | Suitable for medium-sized teams. | Best for large-scale deployments with complex requirements. |
 
 ## AWS INSPECTOR
+It offers two types of scanning for Lambda
+
+1. Amazon Inspector Lambda Standard Scanning
+2. Amazon Inspector Lambda Code Scanning
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/245f48be-e07c-443b-89a8-ee48da27e38d)
+
+|                                | Amazon Inspector Lambda Standard Scanning | Amazon Inspector Lambda Code Scanning |
+|--------------------------------|--------------------------------------------|----------------------------------------|
+| Type of Assessment             | Security Assessment                        | Code Assessment                        |
+| Description                    | Assesses the security posture of Lambda applications on AWS | Scans the source code of Lambda applications to detect programming errors and security vulnerabilities |
+| Target                         | Lambda applications                        | Source code of Lambda applications    |
+| Goal                           | Detect security vulnerabilities and provide detailed information to improve security | Detect programming errors, security vulnerabilities, and code quality issues |
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/cb769ddf-f434-47ec-bab1-e91649e988c8)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/025f9791-e2be-4262-b90c-6cd0975d49e6)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/32105169-6eca-4514-a465-f3e35c1003c8)
 
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/1f89b5eb-db81-4242-a21a-84ceaf6279b3)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e71ad894-6f8a-4bbb-bc1a-b759a7029111)
+
 **codeguru library**
 
-Disabled HTML autoescape
+Inject some vulnerability
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/44fcc7b6-8924-429a-90cf-42e8482ac010)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/da341f64-3d69-40b2-ab29-bee2eb5cd4f7)
 
+Result of scan `standard+code scan`
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/1d7a456a-34b4-4650-85f6-cd00c88cc257)
 
 
 ## SOLUTION
