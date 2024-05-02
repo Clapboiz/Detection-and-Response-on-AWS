@@ -77,6 +77,21 @@ serverless invoke local --function hello
 | **Suitability for Serverless Architecture** | Suitable for serverless architecture. | Suitable for serverless architecture. | Native to AWS, fits well with serverless architecture. |
 | **Overall Recommendation**              | Good for small teams with simple needs. | Suitable for medium-sized teams. | Best for large-scale deployments with complex requirements. |
 
+## AWS INSPECTOR
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/cb769ddf-f434-47ec-bab1-e91649e988c8)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/025f9791-e2be-4262-b90c-6cd0975d49e6)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/32105169-6eca-4514-a465-f3e35c1003c8)
+
+**codeguru library**
+
+Disabled HTML autoescape
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/44fcc7b6-8924-429a-90cf-42e8482ac010)
+
+
+
 ## SOLUTION
 
 | AWS Service | Description |
