@@ -1,6 +1,34 @@
 # Detection-and-Response-on-AWS
+## ARCHITECTURE
 
-## HOW TO RUN THIS PROJEECT (Follow step by step)
+![architecture](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/90b32d6c-7c92-4146-8f3d-aa75013b9f6b)
+
+| Criteria                                | Slack Integration                | SNS Integration                | SIEM (GuardDuty)                   |
+|-----------------------------------------|----------------------------------|--------------------------------|-----------------------------------|
+| **Ease of Setup**                       | Easy to set up Slack webhook.   | Simple integration with SNS.   | Requires configuration within AWS.|
+| **Real-time Notifications**             | Real-time alerts in Slack.      | Real-time alerts through SNS. | Real-time detection and alerts.   |
+| **Customization**                       | Limited customization options.  | Limited customization options.| Highly customizable configurations.|
+| **Scalability**                         | Scalable for small to medium teams. | Scalable for various team sizes. | Scalable for enterprise-level needs. |
+| **Cost**                                | Free, but may incur Slack costs. | Minimal cost for SNS usage.    | Included in AWS GuardDuty pricing.|
+| **Event Correlation**                   | Limited event correlation.       | Limited event correlation.     | Advanced event correlation capabilities. |
+| **Integration with Other Tools**        | Requires additional integration for analysis. | Requires additional integration for analysis. | Integration with various AWS services and third-party tools. |
+| **Ease of Monitoring**                  | Easy monitoring within Slack.    | Limited monitoring options.    | Monitoring within AWS console and third-party tools. |
+| **Management Overhead**                 | Low management overhead.         | Low management overhead.       | May require additional management effort. |
+| **Suitability for Serverless Architecture** | Suitable for serverless architecture. | Suitable for serverless architecture. | Native to AWS, fits well with serverless architecture. |
+| **Overall Recommendation**              | Good for small teams with simple needs. | Suitable for medium-sized teams. | Best for large-scale deployments with complex requirements. |
+## SOLUTION
+
+| AWS Service | Description |
+|-------------|-------------|
+| Amazon GuardDuty | Protect AWS accounts with intelligent threat detection |
+| Amazon Inspector | Automated and continual vulnerability management at scale |
+| AWS Security Hub | Automate AWS security checks and centralize security alerts |
+| Amazon Detective | Analyze and visualize security data to investigate potential security issues |
+| AWS Config | Assess, audit, and evaluate configurations of your resources |
+| Amazon CloudWatch | Observe and monitor resources and applications on AWS, on premises, and on other clouds |
+| AWS CloudTrail | Track user activity and API usage |
+| AWS Elastic Disaster Recovery | Scalable, cost-effective application recovery to AWS |
+## CRUD WEB SERVERLESS USING NODEJS, SEVERLESS FRAMEWORK 
 **Note: You must run our project on `cmd` or `git bash`, not on powershell because the error "Select-String: A positional parameter cannot be found that accepts argument '--migrate'" will appear because PowerShell confuses the sls command with Select-String. This happens because sls is an alias for Select-String in PowerShell**
 
 Because we need to test locally before releasing it to the cloud, you need to install the serverless framework to test locally.
@@ -59,24 +87,6 @@ sls offline
 ```
 serverless invoke local --function hello
 ```
-## ARCHITECTURE
-
-![architecture](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/90b32d6c-7c92-4146-8f3d-aa75013b9f6b)
-
-| Criteria                                | Slack Integration                | SNS Integration                | SIEM (GuardDuty)                   |
-|-----------------------------------------|----------------------------------|--------------------------------|-----------------------------------|
-| **Ease of Setup**                       | Easy to set up Slack webhook.   | Simple integration with SNS.   | Requires configuration within AWS.|
-| **Real-time Notifications**             | Real-time alerts in Slack.      | Real-time alerts through SNS. | Real-time detection and alerts.   |
-| **Customization**                       | Limited customization options.  | Limited customization options.| Highly customizable configurations.|
-| **Scalability**                         | Scalable for small to medium teams. | Scalable for various team sizes. | Scalable for enterprise-level needs. |
-| **Cost**                                | Free, but may incur Slack costs. | Minimal cost for SNS usage.    | Included in AWS GuardDuty pricing.|
-| **Event Correlation**                   | Limited event correlation.       | Limited event correlation.     | Advanced event correlation capabilities. |
-| **Integration with Other Tools**        | Requires additional integration for analysis. | Requires additional integration for analysis. | Integration with various AWS services and third-party tools. |
-| **Ease of Monitoring**                  | Easy monitoring within Slack.    | Limited monitoring options.    | Monitoring within AWS console and third-party tools. |
-| **Management Overhead**                 | Low management overhead.         | Low management overhead.       | May require additional management effort. |
-| **Suitability for Serverless Architecture** | Suitable for serverless architecture. | Suitable for serverless architecture. | Native to AWS, fits well with serverless architecture. |
-| **Overall Recommendation**              | Good for small teams with simple needs. | Suitable for medium-sized teams. | Best for large-scale deployments with complex requirements. |
-
 ## AWS INSPECTOR
 It offers two types of scanning for Lambda
 
@@ -106,25 +116,12 @@ It offers two types of scanning for Lambda
 
 Inject some vulnerability
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/da341f64-3d69-40b2-ab29-bee2eb5cd4f7)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/5281965b-0717-42cb-9c17-c82db7cdff31)
 
 Result of scan `standard+code scan`
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/1d7a456a-34b4-4650-85f6-cd00c88cc257)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/27324546-c8c0-4134-8691-d9d521e380c0)
 
-
-## SOLUTION
-
-| AWS Service | Description |
-|-------------|-------------|
-| Amazon GuardDuty | Protect AWS accounts with intelligent threat detection |
-| Amazon Inspector | Automated and continual vulnerability management at scale |
-| AWS Security Hub | Automate AWS security checks and centralize security alerts |
-| Amazon Detective | Analyze and visualize security data to investigate potential security issues |
-| AWS Config | Assess, audit, and evaluate configurations of your resources |
-| Amazon CloudWatch | Observe and monitor resources and applications on AWS, on premises, and on other clouds |
-| AWS CloudTrail | Track user activity and API usage |
-| AWS Elastic Disaster Recovery | Scalable, cost-effective application recovery to AWS |
 
 ## REFERENCES
 [1] https://www.serverless.com/framework/docs/getting-started
