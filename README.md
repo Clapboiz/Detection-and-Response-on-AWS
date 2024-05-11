@@ -1,5 +1,5 @@
 # Detection-and-Response-on-AWS
-## ARCHITECTURE
+## SOLUTION ARCHITECTURE
 ![architecture](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/af6e12ee-aaa2-43d4-9b3c-e275f4c77349)
 
 | Criteria                                | Slack Integration                | SNS Integration                | SIEM (GuardDuty)                   |
@@ -25,6 +25,8 @@
 | AWS Config | Assess, audit, and evaluate configurations of your resources |
 | Amazon CloudWatch | Observe and monitor resources and applications on AWS, on premises, and on other clouds |
 | AWS CloudTrail | Track user activity and API usage |
+## DEPLOYMENT ARCHITECTURE
+![deployment](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/f3f7c86a-564a-4cfa-9808-e9b447374a93)
 ## CRUD WEB SERVERLESS USING NODEJS, SEVERLESS FRAMEWORK 
 **Note: You must run our project on `cmd` or `git bash`, not on powershell because the error "Select-String: A positional parameter cannot be found that accepts argument '--migrate'" will appear because PowerShell confuses the sls command with Select-String. This happens because sls is an alias for Select-String in PowerShell**
 
