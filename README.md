@@ -1,7 +1,6 @@
 # Detection-and-Response-on-AWS
 ## ARCHITECTURE
-
-![architecture](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/90b32d6c-7c92-4146-8f3d-aa75013b9f6b)
+![architecture](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/af6e12ee-aaa2-43d4-9b3c-e275f4c77349)
 
 | Criteria                                | Slack Integration                | SNS Integration                | SIEM (GuardDuty)                   |
 |-----------------------------------------|----------------------------------|--------------------------------|-----------------------------------|
@@ -17,7 +16,6 @@
 | **Suitability for Serverless Architecture** | Suitable for serverless architecture. | Suitable for serverless architecture. | Native to AWS, fits well with serverless architecture. |
 | **Overall Recommendation**              | Good for small teams with simple needs. | Suitable for medium-sized teams. | Best for large-scale deployments with complex requirements. |
 ## SOLUTION
-
 | AWS Service | Description |
 |-------------|-------------|
 | Amazon GuardDuty | Protect AWS accounts with intelligent threat detection |
@@ -27,7 +25,6 @@
 | AWS Config | Assess, audit, and evaluate configurations of your resources |
 | Amazon CloudWatch | Observe and monitor resources and applications on AWS, on premises, and on other clouds |
 | AWS CloudTrail | Track user activity and API usage |
-| AWS Elastic Disaster Recovery | Scalable, cost-effective application recovery to AWS |
 ## CRUD WEB SERVERLESS USING NODEJS, SEVERLESS FRAMEWORK 
 **Note: You must run our project on `cmd` or `git bash`, not on powershell because the error "Select-String: A positional parameter cannot be found that accepts argument '--migrate'" will appear because PowerShell confuses the sls command with Select-String. This happens because sls is an alias for Select-String in PowerShell**
 
