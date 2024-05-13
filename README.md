@@ -142,6 +142,10 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/b28192d6-86a0-4be6-ae75-9d66290150a1)
 
+## AUTOMATICALLY REMEDIATE NON-COMPLIANT RESOURCES (AWS CONFIG RULES + AWS SYSTEMS MANAGER)
+
+
+
 ## REFERENCES
 [1] https://www.serverless.com/framework/docs/getting-started
 
