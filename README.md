@@ -121,6 +121,33 @@ Result of scan `standard+code scan`
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/27324546-c8c0-4134-8691-d9d521e380c0)
 
+## ANTIVIRUS FOR AMAZON S3
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ebd7d1ef-26ad-4311-b3c1-d0b9ee5c147d)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/25aecc89-51a0-41a2-945a-fb5eb4361e41)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d5943499-91a8-4423-aff7-27d98b5d2cc3)
+
+Following this link to init & deploy
+
+```
+https://help.cloudstoragesec.com/getting-started/how-to-deploy/steps-to-deploy
+https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bucket-scanning
+```
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/8952664b-34e0-44c5-8115-756c59ea843b)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/57613e49-5f69-4187-a864-6402aaf40248)
+
+
 
 ## REFERENCES
 [1] https://www.serverless.com/framework/docs/getting-started
+
+[2] https://aws.amazon.com/vi/blogs/apn/integrating-malware-scanning-into-your-data-ingestion-pipeline-with-antivirus-for-amazon-s3/
+
+[3] https://help.cloudstoragesec.com/console-overview/protection/protected-buckets
+
+[4] https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bucket-scanning
+
