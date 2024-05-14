@@ -146,11 +146,26 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/7ed4d49c-12d7-4631-a524-d18263624c89)
 
-
-
 ## AUTOMATICALLY REMEDIATE NON-COMPLIANT RESOURCES (AWS CONFIG RULES + AWS SYSTEMS MANAGER)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/25e42d3f-5f94-44b6-98d1-58eb1ac15328)
 
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/2726b7f1-7d1e-411f-b8c8-cd35bc3dcd7e)
 
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/36b1db2a-e899-4662-b0de-7242c49f36cd)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/04d0d580-bb3c-496e-9111-5fb0f9f99eb8)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a25a03f7-9638-4e7e-8193-85519c700b31)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/35fb763f-996c-43a9-b2aa-c2ab6ee5cd4a)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ada87b99-c1d1-431b-ae36-f86e98cab6f7)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/681ec492-8196-490d-b80f-a66959711f6f)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/325aa7de-92c5-419c-84ce-983930cb0609)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ea89609f-2ab7-4340-a717-a3f32981b89e)
 
 ## REFERENCES
 [1] https://www.serverless.com/framework/docs/getting-started
@@ -159,5 +174,6 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 
 [3] https://help.cloudstoragesec.com/console-overview/protection/protected-buckets
 
-[4] https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bucket-scanning
+[4] https://help.cloudstoragesec.com/getting-started/initial-config
 
+[5]. 
