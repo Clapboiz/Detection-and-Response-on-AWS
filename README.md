@@ -142,6 +142,12 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/b28192d6-86a0-4be6-ae75-9d66290150a1)
 
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d2b998a0-063d-429d-b9c4-412adc9bfcdd)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/7ed4d49c-12d7-4631-a524-d18263624c89)
+
+
+
 ## AUTOMATICALLY REMEDIATE NON-COMPLIANT RESOURCES (AWS CONFIG RULES + AWS SYSTEMS MANAGER)
 
 
