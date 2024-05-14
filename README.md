@@ -176,4 +176,4 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 
 [4] https://help.cloudstoragesec.com/getting-started/initial-config
 
-[5]. 
+[5]. https://www.youtube.com/watch?v=2Bdxh9WXDX8
