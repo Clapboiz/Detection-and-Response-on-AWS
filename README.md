@@ -167,6 +167,12 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ea89609f-2ab7-4340-a717-a3f32981b89e)
 
+## IAM ACCESS ANALYZER
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/0958debc-b7ba-42b7-a3e5-d618d3f6904f)
+
+
+
+
 ## REFERENCES
 [1] https://www.serverless.com/framework/docs/getting-started
 
