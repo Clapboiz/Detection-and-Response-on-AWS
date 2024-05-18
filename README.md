@@ -168,10 +168,19 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ea89609f-2ab7-4340-a717-a3f32981b89e)
 
 ## IAM ACCESS ANALYZER
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/0958debc-b7ba-42b7-a3e5-d618d3f6904f)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/b49f18ce-1420-4ec6-b8ce-d8f1b9988f23)
 
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a4686438-5540-44b1-a951-58727a6265ee)
 
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/6374bcb0-5eda-4a0f-b463-55ab77edb8f0)
 
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ac4fa14c-5da1-426a-8d7f-fb42cb8a054c)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e97eeeed-4ca0-46d2-bce1-287ca14639cf)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a6b40b28-d86a-4013-89f0-9b555261d2c0)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/5324cc7d-7ff9-4741-9c8e-75fa817003b0)
 
 ## REFERENCES
 [1] https://www.serverless.com/framework/docs/getting-started
