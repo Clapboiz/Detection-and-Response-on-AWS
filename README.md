@@ -1,4 +1,4 @@
-# Detection-and-Response-on-AWS
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e92d4666-5d6d-4b3a-87e6-0cbecbf3eec3)# Detection-and-Response-on-AWS
 ## SOLUTION ARCHITECTURE
 ![architecture](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/af6e12ee-aaa2-43d4-9b3c-e275f4c77349)
 
@@ -121,6 +121,9 @@ Result of scan `standard+code scan`
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/27324546-c8c0-4134-8691-d9d521e380c0)
 
+## USE AWS MACIE TO DETECT AND PROTECT SENSITIVE DATA
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/1e49dbc4-1d00-45fd-9c38-763396b45cb1)
+
 ## ANTIVIRUS FOR AMAZON S3
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ebd7d1ef-26ad-4311-b3c1-d0b9ee5c147d)
@@ -145,6 +148,13 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d2b998a0-063d-429d-b9c4-412adc9bfcdd)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/7ed4d49c-12d7-4631-a524-d18263624c89)
+
+## TRACK USER ACTIVITY AND API USAGE
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/5c1199d7-f516-4883-95a6-5ae766f037cc)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d54f68e8-f74e-401c-a4e0-d9f87b3176ae)
+
+
 
 ## AUTOMATICALLY REMEDIATE NON-COMPLIANT RESOURCES (AWS CONFIG RULES + AWS SYSTEMS MANAGER)
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/25e42d3f-5f94-44b6-98d1-58eb1ac15328)
