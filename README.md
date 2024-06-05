@@ -149,12 +149,13 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/7ed4d49c-12d7-4631-a524-d18263624c89)
 
+## USE AWS SECURITY HUB TO DETECT INCIDENTS AND RESPOND QUICKLY
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/611ca383-9213-43aa-ae75-cec6d1776b96)
+
 ## TRACK USER ACTIVITY AND API USAGE
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/5c1199d7-f516-4883-95a6-5ae766f037cc)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d54f68e8-f74e-401c-a4e0-d9f87b3176ae)
-
-
 
 ## AUTOMATICALLY REMEDIATE NON-COMPLIANT RESOURCES (AWS CONFIG RULES + AWS SYSTEMS MANAGER)
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/25e42d3f-5f94-44b6-98d1-58eb1ac15328)
