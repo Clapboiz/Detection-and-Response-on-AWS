@@ -122,6 +122,18 @@ Result of scan `standard+code scan`
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/27324546-c8c0-4134-8691-d9d521e380c0)
 
 ## USE AWS MACIE TO DETECT AND PROTECT SENSITIVE DATA
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a06f5647-8ee0-4269-8c1f-1193f06444cd)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/2e360e2e-efac-493f-8460-8d08d01b6ac7)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/0ad2718a-10a6-4a69-bb4c-7ce86e854e3b)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/8c9a4af2-f8b5-462d-804b-29b20426221f)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/f172e5ba-15cc-46d8-b5cb-6f165a853b07)
+
+
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/1e49dbc4-1d00-45fd-9c38-763396b45cb1)
 
 ## ANTIVIRUS FOR AMAZON S3
