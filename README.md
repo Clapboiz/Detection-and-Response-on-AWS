@@ -1,4 +1,4 @@
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e92d4666-5d6d-4b3a-87e6-0cbecbf3eec3)# Detection-and-Response-on-AWS
+# Detection-and-Response-on-AWS
 ## SOLUTION ARCHITECTURE
 ![architecture](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/af6e12ee-aaa2-43d4-9b3c-e275f4c77349)
 
@@ -151,6 +151,14 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 
 ## USE AWS SECURITY HUB TO DETECT INCIDENTS AND RESPOND QUICKLY
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/611ca383-9213-43aa-ae75-cec6d1776b96)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a0e654e3-554b-4412-b89d-fcef1abfb3dd)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/54c7a63b-980b-4e69-9d70-ae122abfd0af)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/fe1598f9-39e3-4427-a197-c8f8eda146c1)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/107ea7a4-4c9c-4267-827c-96f1c597e68b)
 
 ## TRACK USER ACTIVITY AND API USAGE
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/5c1199d7-f516-4883-95a6-5ae766f037cc)
