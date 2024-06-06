@@ -46,6 +46,15 @@ Result of scan `standard+code scan`
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/93bd7adb-30c4-4b5f-934f-2dada34229d6)
 
+## GUARDDUTY WITH (CLOUD TRAIL + S3 LOGS)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e03a9704-39db-4c3e-b671-0551db9ba2f4)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/384be450-a1bc-47c4-a8e2-84c8e56340ff)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a1eaacc1-1003-4cd7-9600-93ed237c7c2b)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/16bc83b1-856a-40a5-8b9b-efae14658e11)
+
 ## ANTIVIRUS FOR AMAZON S3
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ebd7d1ef-26ad-4311-b3c1-d0b9ee5c147d)
