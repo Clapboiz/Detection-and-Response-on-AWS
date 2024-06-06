@@ -124,17 +124,14 @@ Result of scan `standard+code scan`
 ## USE AWS MACIE TO DETECT AND PROTECT SENSITIVE DATA
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a06f5647-8ee0-4269-8c1f-1193f06444cd)
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/2e360e2e-efac-493f-8460-8d08d01b6ac7)
-
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/0ad2718a-10a6-4a69-bb4c-7ce86e854e3b)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/bfb9f2ac-fea2-4223-afd9-ac9bcb108964)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/8c9a4af2-f8b5-462d-804b-29b20426221f)
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/f172e5ba-15cc-46d8-b5cb-6f165a853b07)
+### SENSITIVE DATA
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ee113335-a1b5-40fb-a4d8-282bb0fc8ded)
 
-
-
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/1e49dbc4-1d00-45fd-9c38-763396b45cb1)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/93bd7adb-30c4-4b5f-934f-2dada34229d6)
 
 ## ANTIVIRUS FOR AMAZON S3
 
@@ -173,7 +170,7 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/107ea7a4-4c9c-4267-827c-96f1c597e68b)
 
 ## TRACK USER ACTIVITY AND API USAGE
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/5c1199d7-f516-4883-95a6-5ae766f037cc)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a3bf5a8e-b922-4cd5-9a64-54f6ce68dcba)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d54f68e8-f74e-401c-a4e0-d9f87b3176ae)
 
