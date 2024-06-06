@@ -1,5 +1,5 @@
 # Detection-and-Response-on-AWS
-You can see all reports as well as how we deploy them in the folder **`Report`**
+You can see all reports as well as how we deploy them in the folder **[Report](https://github.com/Clapboiz/Detection-and-Response-on-AWS/tree/main/Report)**
 ## SOLUTION ARCHITECTURE
 ![architecture](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/af6e12ee-aaa2-43d4-9b3c-e275f4c77349)
 
