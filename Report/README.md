@@ -159,7 +159,9 @@ Above are the evaluation rules for the security hub.
 | **NIST Special Publication 800-53 Revision 5** | - Access Control: Manage access permissions and ensure only authorized individuals can access the system. <br> - Audit and Accountability: Record and track system activities to detect and investigate incidents. <br> - Security Assessment and Authorization: Assess and authorize security measures. <br> - Configuration Management: Manage and secure system configurations. <br> - Contingency Planning: Plan and prepare for security incidents and system recovery. |
 | **PCI DSS** | - Build and Maintain a Secure Network and Systems: Build and maintain a secure network and systems. <br> - Protect Cardholder Data: Protect cardholder data through encryption and access management. <br> - Maintain a Vulnerability Management Program: Manage security vulnerabilities and update software. <br> - Implement Strong Access Control Measures: Implement strong access control measures. <br> - Regularly Monitor and Test Networks: Regularly monitor and test networks. <br> - Maintain an Information Security Policy: Maintain an information security policy. |
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/611ca383-9213-43aa-ae75-cec6d1776b96)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/4d38b796-163e-49df-addd-3bccc075d92a)
+
+You can see the total score as well as the score, failed, and passed of each type of evaluation rule.
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a0e654e3-554b-4412-b89d-fcef1abfb3dd)
 
@@ -167,34 +169,49 @@ Above are the evaluation rules for the security hub.
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/fe1598f9-39e3-4427-a197-c8f8eda146c1)
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/107ea7a4-4c9c-4267-827c-96f1c597e68b)
+You can see details of vulnerabilities as well as the number of all, failed, passed, or 1 type of assessor.
 
-## TRACK USER ACTIVITY AND API USAGE
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a3bf5a8e-b922-4cd5-9a64-54f6ce68dcba)
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/29048f9e-1310-4348-8799-1f7a8cc2091a)
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d54f68e8-f74e-401c-a4e0-d9f87b3176ae)
+You can view details about the vulnerability and patching.
 
+This error is related to an S3 bucket allowing public read access, which is not secure and can lead to data in the bucket being accessed illegally. To fix it, you need to change the settings to block public access to this bucket. You can follow the instructions at the URL provided in the recommendations section to fix this error.
 ## AUTOMATICALLY REMEDIATE NON-COMPLIANT RESOURCES (AWS CONFIG RULES + AWS SYSTEMS MANAGER)
+In this project, I will see which resources do not comply with the rule I provided. If they do not comply, it will be a violation, and the administrator will be notified.
+
+It will then be automatically fixed using the custom rule I provide.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/25e42d3f-5f94-44b6-98d1-58eb1ac15328)
+
+I will check to see if the server log is enabled or not.
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/2726b7f1-7d1e-411f-b8c8-cd35bc3dcd7e)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/36b1db2a-e899-4662-b0de-7242c49f36cd)
 
+Provide resources for it to check compliance or non-compliance
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/04d0d580-bb3c-496e-9111-5fb0f9f99eb8)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a25a03f7-9638-4e7e-8193-85519c700b31)
 
+Seeing that there are 4 non-compliant resources
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/35fb763f-996c-43a9-b2aa-c2ab6ee5cd4a)
+
+This is a manual remediate
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ada87b99-c1d1-431b-ae36-f86e98cab6f7)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/681ec492-8196-490d-b80f-a66959711f6f)
 
+This is the rule and policy to auto-remediate
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/325aa7de-92c5-419c-84ce-983930cb0609)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ea89609f-2ab7-4340-a717-a3f32981b89e)
 
+Information configuration and automatic remediation
 ## IAM ACCESS ANALYZER
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/b49f18ce-1420-4ec6-b8ce-d8f1b9988f23)
 
