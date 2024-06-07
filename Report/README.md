@@ -149,6 +149,16 @@ Above are the scanning options, and after scanning, it can detect malware when i
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/300f6b69-c8c6-4c45-8a51-d3def9f742ea)
 
+Above are the evaluation rules for the security hub.
+
+| **Standard** | **Evaluation Criteria** |
+| --- | --- |
+| **AWS Foundational Security Best Practices** | - IAM: Manage access permissions, control access, and ensure proper use of IAM. <br> - Logging and Monitoring: Set up and configure logging and monitoring services such as AWS CloudTrail, AWS Config. <br> - Infrastructure Protection: Protect network and services using security groups, VPC, and firewall. <br> - Data Protection: Protect data through encryption and key management. <br> - Incident Response: Prepare and respond to security incidents. |
+| **AWS Resource Tagging Standard** | - Tag Consistency: Use consistent keys and values for tags. <br> - Tag Completeness: Ensure all necessary resources are tagged. <br> - Tag Governance: Establish and maintain policies and rules for resource tagging. <br> - Tag Usage: Use tags for cost management, security, and compliance. |
+| **CIS AWS Foundations Benchmark** | - Identity and Access Management: Ensure proper configuration and use of IAM. <br> - Logging: Set up logging to monitor activities and security. <br> - Monitoring: Monitor resources and activities to detect security issues. <br> - Networking: Secure the network and properly configure security groups and VPC. <br> - Account Management: Manage AWS accounts and configure security settings. |
+| **NIST Special Publication 800-53 Revision 5** | - Access Control: Manage access permissions and ensure only authorized individuals can access the system. <br> - Audit and Accountability: Record and track system activities to detect and investigate incidents. <br> - Security Assessment and Authorization: Assess and authorize security measures. <br> - Configuration Management: Manage and secure system configurations. <br> - Contingency Planning: Plan and prepare for security incidents and system recovery. |
+| **PCI DSS** | - Build and Maintain a Secure Network and Systems: Build and maintain a secure network and systems. <br> - Protect Cardholder Data: Protect cardholder data through encryption and access management. <br> - Maintain a Vulnerability Management Program: Manage security vulnerabilities and update software. <br> - Implement Strong Access Control Measures: Implement strong access control measures. <br> - Regularly Monitor and Test Networks: Regularly monitor and test networks. <br> - Maintain an Information Security Policy: Maintain an information security policy. |
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/611ca383-9213-43aa-ae75-cec6d1776b96)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a0e654e3-554b-4412-b89d-fcef1abfb3dd)
