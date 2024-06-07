@@ -213,20 +213,41 @@ This is the rule and policy to auto-remediate
 
 Information configuration and automatic remediation
 ## IAM ACCESS ANALYZER
+IAM Access Analyzer is designed to:
+
++ External access detection: Identify and alert when any resources in your AWS account are accessible from outside the organization, including other AWS accounts or public services.
+
++ Access analytics: Provides detailed information about policies and access so you can better understand who has access to your resources and under what conditions.
+
++ Access rights management: Helps you manage and adjust access rights to ensure safety and compliance with security policies.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/b49f18ce-1420-4ec6-b8ce-d8f1b9988f23)
 
+Create analyzer
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a4686438-5540-44b1-a951-58727a6265ee)
+
+Here, I create a threat by enabling public access. In this project, i do not have a registration or login system with authentication and authorization, so i use the context `public access'.
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/6374bcb0-5eda-4a0f-b463-55ab77edb8f0)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ac4fa14c-5da1-426a-8d7f-fb42cb8a054c)
 
+After creating analyzer
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e97eeeed-4ca0-46d2-bce1-287ca14639cf)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a6b40b28-d86a-4013-89f0-9b555261d2c0)
 
+Some permissions for users to access Dynamodb
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/5324cc7d-7ff9-4741-9c8e-75fa817003b0)
 
+Total number of findings, based on public access and cross-account access
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/40c397a4-b861-4987-b227-a17e52e54b7e)
+
+Detail
 ## AWS DETECTIVE
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/88c95c2d-bf8f-436d-8908-b50219b684ba)
 
