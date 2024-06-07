@@ -63,7 +63,7 @@ Enable the “Automated sensitive data discovery” feature in Amazon Macie, whi
 ### USE AWS MACIE TO TRACK USER ACTIVITY AND API USAGE
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ee113335-a1b5-40fb-a4d8-282bb0fc8ded)
 
-
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/163cce5a-db1d-44a4-bf01-6546c2be2662)
 
 ## GUARDDUTY WITH (CLOUD TRAIL + S3 LOGS)
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e03a9704-39db-4c3e-b671-0551db9ba2f4)
