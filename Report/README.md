@@ -249,16 +249,24 @@ Total number of findings, based on public access and cross-account access
 
 Detail
 ## AWS DETECTIVE
+AWS Detective uses data from services like AWS CloudTrail and VPC Flow Logs to build graphs and analyze behavior, helping you quickly identify unusual patterns and take appropriate preventative measures.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/88c95c2d-bf8f-436d-8908-b50219b684ba)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/4673e8a5-2579-41b4-871b-3e75aacdcb35)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/449a49b1-e9d7-420e-97e7-7614e02af239)
 
+You can get input from the security hub, and after viewing the details, you can see what role this account uses to access what, success, failure, or total number of times.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/548a87b9-26a0-4667-a965-7415527d1f7a)
+
+You can adjust the investigation period (up to 1 month)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/c4b0f5d2-0e08-4a58-9ca9-d016f1bdd805)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/8ad8fd18-3dfe-4dcf-8142-ccf563ef85cf)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/b0268e74-3f05-41fc-948d-4c11ed279728)
+
+After investigating, you can view detailed results as above. You can also view the IP as well as threats coming from this IP
