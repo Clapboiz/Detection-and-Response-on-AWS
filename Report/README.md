@@ -145,6 +145,10 @@ This is the dashboard after one day of scanning. The two charts above show us th
 Above are the scanning options, and after scanning, it can detect malware when in exe form, and when I zip it again, it can still detect it.
 
 ## USE AWS SECURITY HUB TO DETECT INCIDENTS AND RESPOND QUICKLY
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/fe650085-735b-4ae3-a2e3-014723509848)
+
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/300f6b69-c8c6-4c45-8a51-d3def9f742ea)
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/611ca383-9213-43aa-ae75-cec6d1776b96)
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a0e654e3-554b-4412-b89d-fcef1abfb3dd)
