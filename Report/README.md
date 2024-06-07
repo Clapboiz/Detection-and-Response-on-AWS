@@ -16,35 +16,54 @@ It offers two types of scanning for Lambda
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/cb769ddf-f434-47ec-bab1-e91649e988c8)
 
+First, you need to enable `AWS Inspector`
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/025f9791-e2be-4262-b90c-6cd0975d49e6)
+
+This is `Dashboard of AWS Inspector`. In this project, i use `Serverless Architecture`, so i only use lambda scanning
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/32105169-6eca-4514-a465-f3e35c1003c8)
 
+As mentioned above, this is `Lambda Standard Scanning`
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/1f89b5eb-db81-4242-a21a-84ceaf6279b3)
+
+You need to enable two options for lambda scanning because of the benefits it brings, as I mentioned above.
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e71ad894-6f8a-4bbb-bc1a-b759a7029111)
 
+When i turn on two options of lambda scanning
+
 **codeguru library**
 
-Inject some vulnerability
+
+The `Amazon CodeGuru Detector Library` is a resource containing detailed information about CodeGuru's code quality and security detectors to help developers build secure and productive applications on AWS. Each detection page in the Detection Kit Library contains a description, non-compliant and compliant code snippets, severity level, and additional information to help developers minimize their risk.
+
+`Amazon CodeGuru Detector Library` provides vulnerabilities and patching
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/5281965b-0717-42cb-9c17-c82db7cdff31)
 
-Result of scan `standard+code scan`
+Inject some vulnerability
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/27324546-c8c0-4134-8691-d9d521e380c0)
+
+Result of scan `standard+code scan`
 
 ## USE AWS MACIE TO DETECT AND PROTECT SENSITIVE DATA
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a06f5647-8ee0-4269-8c1f-1193f06444cd)
 
+We will enable these two options to pass input to `Security Hub'.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/bfb9f2ac-fea2-4223-afd9-ac9bcb108964)
 
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/8c9a4af2-f8b5-462d-804b-29b20426221f)
-
-### SENSITIVE DATA
-![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ee113335-a1b5-40fb-a4d8-282bb0fc8ded)
+Enable the “Automated sensitive data discovery” feature in Amazon Macie, which will automatically select samples from S3 objects and examine them for sensitive data.
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/93bd7adb-30c4-4b5f-934f-2dada34229d6)
+
+### USE AWS MACIE TO TRACK USER ACTIVITY AND API USAGE
+![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ee113335-a1b5-40fb-a4d8-282bb0fc8ded)
+
+
 
 ## GUARDDUTY WITH (CLOUD TRAIL + S3 LOGS)
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e03a9704-39db-4c3e-b671-0551db9ba2f4)
