@@ -60,27 +60,62 @@ Enable the “Automated sensitive data discovery” feature in Amazon Macie, whi
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/93bd7adb-30c4-4b5f-934f-2dada34229d6)
 
-### USE AWS MACIE TO TRACK USER ACTIVITY AND API USAGE
+This is 'sensitive data` that AWS Macie scans.
+
+## USE AWS CLOUDTRAIL TO TRACK USER ACTIVITY AND API USAGE
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ee113335-a1b5-40fb-a4d8-282bb0fc8ded)
 
+This is the rule to track the API.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/163cce5a-db1d-44a4-bf01-6546c2be2662)
+
+I set it up to send it to AWS SNS (gmail).
 
 ## GUARDDUTY WITH (CLOUD TRAIL + S3 LOGS)
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/e03a9704-39db-4c3e-b671-0551db9ba2f4)
 
+This will be the input that Guardduty receives
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/384be450-a1bc-47c4-a8e2-84c8e56340ff)
+
+Enable logs from `S3 buckets`
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/a1eaacc1-1003-4cd7-9600-93ed237c7c2b)
 
+`Guardduty` will receive input from `CloudTrail`
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/16bc83b1-856a-40a5-8b9b-efae14658e11)
 
+`GuardDuty` has scanned 3 threats
+
+The `PolicyIAMUser/RootCredentialUsage` error you see in the image is a warning from AWS GuardDuty. It turns out that the ListRoles API was called using root privileges from a specific IP address
+
+**`Patch:`**
+
++ Use MFA: Secure accounts by requiring multi-factor authentication for root access.
+
++ Check and modify IAM policies: Ensure that IAM policies do not grant too many unnecessary permissions and update them according to the principle of least permissions.
+
 ## ANTIVIRUS FOR AMAZON S3
+In this project, we use a third party to detect malware because of the following benefits:
+
++ In-depth and customizable: Third-party antivirus software is often specifically designed for malware detection and removal. They offer many customization features that allow users to configure them to their specific needs, including deep scanning, scheduled scanning, and handling of infected files.
+
++ Versatile detection: Many antivirus software programs are capable of detecting many different types of malware, including viruses, trojans, ransomware, spyware, and other threats. This can provide a more comprehensive layer of security.
+
++ Diversity of different architectures
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/ebd7d1ef-26ad-4311-b3c1-d0b9ee5c147d)
 
+We click here to see the `document` about configuration, and this is the login account for `ANTIVIRUS FOR AMAZON S3'.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/25aecc89-51a0-41a2-945a-fb5eb4361e41)
 
+It uses `CloudFormations` to automate the creation of services on AWS. You can fill in the information about your serverless web here.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d5943499-91a8-4423-aff7-27d98b5d2cc3)
+
+This is the dashboard after we created the third party using 'CloudFormations'.
 
 Following this link to init & deploy
 
@@ -91,13 +126,23 @@ https://help.cloudstoragesec.com/getting-started/initial-config#step-2-enable-bu
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/8952664b-34e0-44c5-8115-756c59ea843b)
 
+This is the UI of `Antivirus for S3'.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/57613e49-5f69-4187-a864-6402aaf40248)
+
+Here, i can scan manually or scan by time range.
 
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/b28192d6-86a0-4be6-ae75-9d66290150a1)
 
+As you can see, I can take action on `virus` after I scan it.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/d2b998a0-063d-429d-b9c4-412adc9bfcdd)
 
+This is the dashboard after one day of scanning. The two charts above show us the total number of GBs and objects scanned over a period of time.
+
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/7ed4d49c-12d7-4631-a524-d18263624c89)
+
+Above are the scanning options, and after scanning, it can detect malware when in exe form, and when I zip it again, it can still detect it.
 
 ## USE AWS SECURITY HUB TO DETECT INCIDENTS AND RESPOND QUICKLY
 ![image](https://github.com/Clapboiz/Detection-and-Response-on-AWS/assets/112185647/611ca383-9213-43aa-ae75-cec6d1776b96)
